@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Finance Briefing - 2026-11-24</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --line: #d9dee8;
+      --up: #047857;
+      --down: #b42318;
+      --accent: #1d4ed8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 48px;
+    }
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 18px;
+      margin-bottom: 22px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 28px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    p { margin: 0; }
+    .meta {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .label {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+    .value {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.2;
+      word-break: break-word;
+    }
+    .subvalue {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 6px;
+    }
+    .up { color: var(--up); }
+    .down { color: var(--down); }
+    .flat { color: var(--muted); }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      margin-top: 14px;
+      padding: 16px;
+      overflow-x: auto;
+    }
+    .section-meta {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+    .error {
+      border-left: 4px solid var(--down);
+      padding: 10px 12px;
+      background: #fff4f2;
+      color: var(--down);
+    }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+    .data-table th,
+    .data-table td {
+      border-bottom: 1px solid var(--line);
+      padding: 8px 10px;
+      text-align: right;
+    }
+    .data-table th:first-child,
+    .data-table td:first-child {
+      text-align: left;
+    }
+    .data-table thead th {
+      color: var(--muted);
+      font-weight: 700;
+      background: #f2f5fa;
+    }
+    @media (max-width: 700px) {
+      header {
+        display: block;
+      }
+      .meta {
+        text-align: left;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Daily Finance Briefing</h1>
+        <p class="subvalue">Report date: 2026-11-24</p>
+      </div>
+      <div class="meta">
+        <p>Generated: 2026-11-24 19:33:56</p>
+        <p>Data start: 2026-10-10</p>
+      </div>
+    </header>
+    <div class="cards">
+      <article class="card">
+  <p class="label">KOSPI (KS11)</p>
+  <p class="value up">5,006.03</p>
+  <p class="subvalue">2026-11-24 | 297.49 (6.32%)</p>
+</article>
+<article class="card">
+  <p class="label">KOSDAQ (KQ11)</p>
+  <p class="value up">665.88</p>
+  <p class="subvalue">2026-11-24 | 30.43 (4.79%)</p>
+</article>
+<article class="card">
+  <p class="label">Dow Jones (DJI)</p>
+  <p class="value up">49,595.31</p>
+  <p class="subvalue">2026-11-23 | 1,447.98 (3.01%)</p>
+</article>
+<article class="card">
+  <p class="label">NASDAQ Composite (IXIC)</p>
+  <p class="value up">24,089.56</p>
+  <p class="subvalue">2026-11-23 | 1,471.83 (6.51%)</p>
+</article>
+<article class="card">
+  <p class="label">S&amp;P 500 (US500)</p>
+  <p class="value up">7,237.17</p>
+  <p class="subvalue">2026-11-23 | 326.7798 (4.73%)</p>
+</article>
+<article class="card">
+  <p class="label">USD/KRW (USD/KRW)</p>
+  <p class="value down">1,342.86</p>
+  <p class="subvalue">2026-11-24 | -1.4501 (-0.11%)</p>
+</article>
+<article class="card">
+  <p class="label">KOSPI Listed Stocks (KOSPI)</p>
+  <p class="value flat">935</p>
+  <p class="subvalue">Total market cap: 4,104,822,807,778,875.00</p>
+</article>
+    </div>
+    <section>
+  <h2>KOSPI (KS11)</h2>
+  <p class="section-meta">Rows: 32 | Latest: 2026-11-24</p>
+  <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Volume</th>
+      <th>Change</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2026-11-13</th>
+      <td>5452.41</td>
+      <td>5504.44</td>
+      <td>5259.09</td>
+      <td>5290.53</td>
+      <td>247828560</td>
+      <td>-0.0098</td>
+    </tr>
+    <tr>
+      <th>2026-11-16</th>
+      <td>5305.40</td>
+      <td>5327.99</td>
+      <td>5069.83</td>
+      <td>5100.50</td>
+      <td>221295761</td>
+      <td>-0.0359</td>
+    </tr>
+    <tr>
+      <th>2026-11-17</th>
+      <td>5008.09</td>
+      <td>5084.06</td>
+      <td>4957.00</td>
+      <td>4968.48</td>
+      <td>193978441</td>
+      <td>-0.0259</td>
+    </tr>
+    <tr>
+      <th>2026-11-18</th>
+      <td>5098.82</td>
+      <td>5133.14</td>
+      <td>4943.17</td>
+      <td>5067.44</td>
+      <td>219089619</td>
+      <td>0.0199</td>
+    </tr>
+    <tr>
+      <th>2026-11-19</th>
+      <td>5090.04</td>
+      <td>5137.89</td>
+      <td>4963.61</td>
+      <td>5137.89</td>
+      <td>195695352</td>
+      <td>0.0139</td>
+    </tr>
+    <tr>
+      <th>2026-11-20</th>
+      <td>4928.51</td>
+      <td>4971.31</td>
+      <td>4831.69</td>
+      <td>4869.96</td>
+      <td>206728680</td>
+      <td>-0.0521</td>
+    </tr>
+    <tr>
+      <th>2026-11-23</th>
+      <td>4734.90</td>
+      <td>4759.88</td>
+      <td>4586.80</td>
+      <td>4708.54</td>
+      <td>218577180</td>
+      <td>-0.0331</td>
+    </tr>
+    <tr>
+      <th>2026-11-24</th>
+      <td>4880.16</td>
+      <td>5065.74</td>
+      <td>4880.16</td>
+      <td>5006.03</td>
+      <td>176060249</td>
+      <td>0.0632</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<section>
+  <h2>KOSDAQ (KQ11)</h2>
+  <p class="section-meta">Rows: 32 | Latest: 2026-11-24</p>
+  <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Volume</th>
+      <th>Change</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2026-11-13</th>
+      <td>705.96</td>
+      <td>725.81</td>
+      <td>697.69</td>
+      <td>699.66</td>
+      <td>455458146</td>
+      <td>0.0045</td>
+    </tr>
+    <tr>
+      <th>2026-11-16</th>
+      <td>705.88</td>
+      <td>708.34</td>
+      <td>664.98</td>
+      <td>665.65</td>
+      <td>446420288</td>
+      <td>-0.0486</td>
+    </tr>
+    <tr>
+      <th>2026-11-17</th>
+      <td>656.82</td>
+      <td>665.79</td>
+      <td>649.62</td>
+      <td>650.06</td>
+      <td>467132472</td>
+      <td>-0.0234</td>
+    </tr>
+    <tr>
+      <th>2026-11-18</th>
+      <td>664.93</td>
+      <td>674.30</td>
+      <td>646.31</td>
+      <td>662.81</td>
+      <td>462804152</td>
+      <td>0.0196</td>
+    </tr>
+    <tr>
+      <th>2026-11-19</th>
+      <td>668.31</td>
+      <td>684.81</td>
+      <td>650.39</td>
+      <td>684.81</td>
+      <td>398791874</td>
+      <td>0.0332</td>
+    </tr>
+    <tr>
+      <th>2026-11-20</th>
+      <td>660.98</td>
+      <td>665.15</td>
+      <td>642.13</td>
+      <td>645.68</td>
+      <td>421847118</td>
+      <td>-0.0571</td>
+    </tr>
+    <tr>
+      <th>2026-11-23</th>
+      <td>634.93</td>
+      <td>645.93</td>
+      <td>618.74</td>
+      <td>635.45</td>
+      <td>405856421</td>
+      <td>-0.0158</td>
+    </tr>
+    <tr>
+      <th>2026-11-24</th>
+      <td>654.31</td>
+      <td>670.95</td>
+      <td>652.21</td>
+      <td>665.88</td>
+      <td>408163779</td>
+      <td>0.0479</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<section>
+  <h2>Dow Jones (DJI)</h2>
+  <p class="section-meta">Rows: 32 | Latest: 2026-11-23</p>
+  <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Volume</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2026-11-12</th>
+      <td>52427.941406</td>
+      <td>52751.218750</td>
+      <td>52271.160156</td>
+      <td>52297.089844</td>
+      <td>1008210000</td>
+    </tr>
+    <tr>
+      <th>2026-11-13</th>
+      <td>52490.679688</td>
+      <td>52521.480469</td>
+      <td>52017.859375</td>
+      <td>52347.550781</td>
+      <td>645240000</td>
+    </tr>
+    <tr>
+      <th>2026-11-16</th>
+      <td>52267.058594</td>
+      <td>52324.000000</td>
+      <td>51511.558594</td>
+      <td>51608.171875</td>
+      <td>672220000</td>
+    </tr>
+    <tr>
+      <th>2026-11-17</th>
+      <td>51386.980469</td>
+      <td>51463.531250</td>
+      <td>50566.980469</td>
+      <td>50759.421875</td>
+      <td>749150000</td>
+    </tr>
+    <tr>
+      <th>2026-11-18</th>
+      <td>50627.359375</td>
+      <td>50637.699219</td>
+      <td>50029.351562</td>
+      <td>50198.171875</td>
+      <td>684510000</td>
+    </tr>
+    <tr>
+      <th>2026-11-19</th>
+      <td>50432.320312</td>
+      <td>50454.808594</td>
+      <td>49091.921875</td>
+      <td>49097.058594</td>
+      <td>723230000</td>
+    </tr>
+    <tr>
+      <th>2026-11-20</th>
+      <td>49071.820312</td>
+      <td>49594.898438</td>
+      <td>47998.859375</td>
+      <td>48147.328125</td>
+      <td>1167160000</td>
+    </tr>
+    <tr>
+      <th>2026-11-23</th>
+      <td>49239.910156</td>
+      <td>49810.261719</td>
+      <td>49033.308594</td>
+      <td>49595.308594</td>
+      <td>1200080000</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<section>
+  <h2>NASDAQ Composite (IXIC)</h2>
+  <p class="section-meta">Rows: 32 | Latest: 2026-11-23</p>
+  <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Volume</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2026-11-12</th>
+      <td>25092.109375</td>
+      <td>25597.220703</td>
+      <td>25068.279297</td>
+      <td>25366.089844</td>
+      <td>10336740000</td>
+    </tr>
+    <tr>
+      <th>2026-11-13</th>
+      <td>25408.000000</td>
+      <td>25423.089844</td>
+      <td>24872.410156</td>
+      <td>25136.269531</td>
+      <td>8691350000</td>
+    </tr>
+    <tr>
+      <th>2026-11-16</th>
+      <td>24853.349609</td>
+      <td>24882.039062</td>
+      <td>24460.279297</td>
+      <td>24509.759766</td>
+      <td>9208530000</td>
+    </tr>
+    <tr>
+      <th>2026-11-17</th>
+      <td>24528.060547</td>
+      <td>24547.660156</td>
+      <td>23989.089844</td>
+      <td>24328.380859</td>
+      <td>9679270000</td>
+    </tr>
+    <tr>
+      <th>2026-11-18</th>
+      <td>24486.179688</td>
+      <td>24538.779297</td>
+      <td>24225.300781</td>
+      <td>24429.880859</td>
+      <td>8260670000</td>
+    </tr>
+    <tr>
+      <th>2026-11-19</th>
+      <td>24809.050781</td>
+      <td>24939.619141</td>
+      <td>23870.699219</td>
+      <td>23879.199219</td>
+      <td>10558810000</td>
+    </tr>
+    <tr>
+      <th>2026-11-20</th>
+      <td>23592.669922</td>
+      <td>23837.759766</td>
+      <td>22513.009766</td>
+      <td>22617.730469</td>
+      <td>12469600000</td>
+    </tr>
+    <tr>
+      <th>2026-11-23</th>
+      <td>24269.750000</td>
+      <td>24353.650391</td>
+      <td>23794.960938</td>
+      <td>24089.560547</td>
+      <td>11346040000</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<section>
+  <h2>S&amp;P 500 (US500)</h2>
+  <p class="section-meta">Rows: 32 | Latest: 2026-11-23</p>
+  <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Volume</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2026-11-12</th>
+      <td>7550.839844</td>
+      <td>7652.759766</td>
+      <td>7550.839844</td>
+      <td>7592.399902</td>
+      <td>4693040000</td>
+    </tr>
+    <tr>
+      <th>2026-11-13</th>
+      <td>7616.850098</td>
+      <td>7621.779785</td>
+      <td>7499.399902</td>
+      <td>7561.669922</td>
+      <td>4372990000</td>
+    </tr>
+    <tr>
+      <th>2026-11-16</th>
+      <td>7513.979980</td>
+      <td>7515.600098</td>
+      <td>7400.149902</td>
+      <td>7416.589844</td>
+      <td>5152460000</td>
+    </tr>
+    <tr>
+      <th>2026-11-17</th>
+      <td>7411.020020</td>
+      <td>7415.370117</td>
+      <td>7288.339844</td>
+      <td>7340.529785</td>
+      <td>5165100000</td>
+    </tr>
+    <tr>
+      <th>2026-11-18</th>
+      <td>7355.689941</td>
+      <td>7367.680176</td>
+      <td>7285.759766</td>
+      <td>7323.629883</td>
+      <td>5388180000</td>
+    </tr>
+    <tr>
+      <th>2026-11-19</th>
+      <td>7389.259766</td>
+      <td>7415.640137</td>
+      <td>7173.629883</td>
+      <td>7175.830078</td>
+      <td>5692800000</td>
+    </tr>
+    <tr>
+      <th>2026-11-20</th>
+      <td>7150.390137</td>
+      <td>7198.669922</td>
+      <td>6882.660156</td>
+      <td>6910.390137</td>
+      <td>6679680000</td>
+    </tr>
+    <tr>
+      <th>2026-11-23</th>
+      <td>7227.410156</td>
+      <td>7295.600098</td>
+      <td>7152.660156</td>
+      <td>7237.169922</td>
+      <td>5608530000</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<section>
+  <h2>USD/KRW (USD/KRW)</h2>
+  <p class="section-meta">Rows: 33 | Latest: 2026-11-24</p>
+  <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>Volume</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2026-11-13</th>
+      <td>1333.160034</td>
+      <td>1338.170044</td>
+      <td>1329.130005</td>
+      <td>1333.780029</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2026-11-16</th>
+      <td>1333.250000</td>
+      <td>1336.810059</td>
+      <td>1331.310059</td>
+      <td>1333.250000</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2026-11-17</th>
+      <td>1336.050049</td>
+      <td>1342.359985</td>
+      <td>1332.800049</td>
+      <td>1335.670044</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2026-11-18</th>
+      <td>1332.040039</td>
+      <td>1333.589966</td>
+      <td>1326.599976</td>
+      <td>1333.010010</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2026-11-19</th>
+      <td>1330.760010</td>
+      <td>1335.550049</td>
+      <td>1325.069946</td>
+      <td>1330.400024</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2026-11-20</th>
+      <td>1335.260010</td>
+      <td>1342.660034</td>
+      <td>1332.030029</td>
+      <td>1334.790039</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2026-11-23</th>
+      <td>1339.349976</td>
+      <td>1351.310059</td>
+      <td>1338.050049</td>
+      <td>1344.310059</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2026-11-24</th>
+      <td>1342.020020</td>
+      <td>1348.380005</td>
+      <td>1337.439941</td>
+      <td>1342.859985</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<section>
+  <h2>KOSPI Listed Stocks</h2>
+  <p class="section-meta">Rows: 935 | Total market cap: 4,104,822,807,778,875.00</p>
+  <table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Code</th>
+      <th>Name</th>
+      <th>Close</th>
+      <th>Changes</th>
+      <th>ChangeRatio</th>
+      <th>Volume</th>
+      <th>Amount</th>
+      <th>MarketCap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>005930</td>
+      <td>삼성전자</td>
+      <td>189,500.00</td>
+      <td>12,000.00</td>
+      <td>6.76%</td>
+      <td>15,833,960.00</td>
+      <td>3,026,137,757,100.00</td>
+      <td>1,107,285,168,355,200.00</td>
+    </tr>
+    <tr>
+      <td>000660</td>
+      <td>SK하이닉스</td>
+      <td>1,152,000.00</td>
+      <td>67,000.00</td>
+      <td>6.18%</td>
+      <td>3,350,029.00</td>
+      <td>3,951,345,603,814.00</td>
+      <td>818,473,349,694,000.00</td>
+    </tr>
+    <tr>
+      <td>005935</td>
+      <td>삼성전자우</td>
+      <td>149,800.00</td>
+      <td>8,900.00</td>
+      <td>6.32%</td>
+      <td>3,083,867.00</td>
+      <td>465,642,540,297.00</td>
+      <td>120,435,917,570,300.00</td>
+    </tr>
+    <tr>
+      <td>402340</td>
+      <td>SK스퀘어</td>
+      <td>714,000.00</td>
+      <td>34,000.00</td>
+      <td>5.00%</td>
+      <td>567,520.00</td>
+      <td>418,607,722,000.00</td>
+      <td>94,325,658,570,000.00</td>
+    </tr>
+    <tr>
+      <td>373220</td>
+      <td>LG에너지솔루션</td>
+      <td>311,000.00</td>
+      <td>19,500.00</td>
+      <td>6.69%</td>
+      <td>390,535.00</td>
+      <td>121,013,200,000.00</td>
+      <td>73,593,000,000,000.00</td>
+    </tr>
+    <tr>
+      <td>009150</td>
+      <td>삼성전기</td>
+      <td>854,000.00</td>
+      <td>76,000.00</td>
+      <td>9.77%</td>
+      <td>780,775.00</td>
+      <td>675,148,472,000.00</td>
+      <td>64,087,191,168,000.00</td>
+    </tr>
+    <tr>
+      <td>207940</td>
+      <td>삼성바이오로직스</td>
+      <td>1,292,000.00</td>
+      <td>4,000.00</td>
+      <td>0.31%</td>
+      <td>64,267.00</td>
+      <td>82,900,316,500.00</td>
+      <td>59,715,326,790,000.00</td>
+    </tr>
+    <tr>
+      <td>005380</td>
+      <td>현대차</td>
+      <td>273,000.00</td>
+      <td>25,500.00</td>
+      <td>10.30%</td>
+      <td>686,462.00</td>
+      <td>185,169,325,750.00</td>
+      <td>55,953,285,300,000.00</td>
+    </tr>
+    <tr>
+      <td>105560</td>
+      <td>KB금융</td>
+      <td>150,800.00</td>
+      <td>7,100.00</td>
+      <td>4.94%</td>
+      <td>701,565.00</td>
+      <td>105,166,578,700.00</td>
+      <td>53,699,722,927,600.00</td>
+    </tr>
+    <tr>
+      <td>032830</td>
+      <td>삼성생명</td>
+      <td>244,500.00</td>
+      <td>19,500.00</td>
+      <td>8.67%</td>
+      <td>241,388.00</td>
+      <td>59,229,843,500.00</td>
+      <td>49,400,000,000,000.00</td>
+    </tr>
+    <tr>
+      <td>068270</td>
+      <td>셀트리온</td>
+      <td>207,500.00</td>
+      <td>5,500.00</td>
+      <td>2.72%</td>
+      <td>380,879.00</td>
+      <td>78,958,281,500.00</td>
+      <td>48,515,000,501,000.00</td>
+    </tr>
+    <tr>
+      <td>028260</td>
+      <td>삼성물산</td>
+      <td>263,500.00</td>
+      <td>17,000.00</td>
+      <td>6.90%</td>
+      <td>289,288.00</td>
+      <td>76,842,257,500.00</td>
+      <td>43,055,492,755,500.00</td>
+    </tr>
+    <tr>
+      <td>055550</td>
+      <td>신한지주</td>
+      <td>86,200.00</td>
+      <td>3,900.00</td>
+      <td>4.74%</td>
+      <td>627,534.00</td>
+      <td>53,551,006,150.00</td>
+      <td>40,088,155,211,800.00</td>
+    </tr>
+    <tr>
+      <td>000270</td>
+      <td>기아</td>
+      <td>94,600.00</td>
+      <td>8,200.00</td>
+      <td>9.49%</td>
+      <td>1,422,718.00</td>
+      <td>134,289,824,550.00</td>
+      <td>37,323,482,608,800.00</td>
+    </tr>
+    <tr>
+      <td>006400</td>
+      <td>삼성SDI</td>
+      <td>446,500.00</td>
+      <td>50,500.00</td>
+      <td>12.75%</td>
+      <td>734,708.00</td>
+      <td>322,802,357,500.00</td>
+      <td>36,263,488,500,000.00</td>
+    </tr>
+    <tr>
+      <td>034730</td>
+      <td>SK</td>
+      <td>475,500.00</td>
+      <td>31,500.00</td>
+      <td>7.09%</td>
+      <td>145,582.00</td>
+      <td>70,150,157,250.00</td>
+      <td>34,692,543,385,500.00</td>
+    </tr>
+    <tr>
+      <td>086790</td>
+      <td>하나금융지주</td>
+      <td>122,200.00</td>
+      <td>4,900.00</td>
+      <td>4.18%</td>
+      <td>675,734.00</td>
+      <td>82,368,631,698.00</td>
+      <td>33,124,265,512,400.00</td>
+    </tr>
+    <tr>
+      <td>012450</td>
+      <td>한화에어로스페이스</td>
+      <td>625,000.00</td>
+      <td>50,000.00</td>
+      <td>8.70%</td>
+      <td>114,631.00</td>
+      <td>71,520,705,500.00</td>
+      <td>32,381,815,828,000.00</td>
+    </tr>
+    <tr>
+      <td>012330</td>
+      <td>현대모비스</td>
+      <td>355,000.00</td>
+      <td>41,500.00</td>
+      <td>13.24%</td>
+      <td>329,788.00</td>
+      <td>115,818,745,500.00</td>
+      <td>32,245,590,015,000.00</td>
+    </tr>
+    <tr>
+      <td>034020</td>
+      <td>두산에너빌리티</td>
+      <td>42,550.00</td>
+      <td>2,850.00</td>
+      <td>7.18%</td>
+      <td>2,060,441.00</td>
+      <td>87,072,916,225.00</td>
+      <td>27,448,045,106,100.00</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+  </main>
+</body>
+</html>
